@@ -93,6 +93,14 @@ int main()
 					return 0;
 				} 
 				continue;
+				for(int i=1;i<=15;i++)
+			{
+				for(int l=1;l<=15;l++)
+				cout<<k[i][l]<<' ';
+				cout<<endl;
+			}
+			cout<<"玩家1 wasd移动 k查看 f放置 p破坏 i地雷 q刀\n";
+			cout<<"玩家2 8456移动 2刀 "<<(k44==100?"1自爆\n":"\n");
 			}
 			if(c=='2'){
 				f2=1;
